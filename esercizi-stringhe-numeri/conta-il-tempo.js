@@ -13,4 +13,13 @@
   http://www.imparareaprogrammare.it
 */
 
-var time = 0;
+var time = 12560;
+var secXMin = 60;
+var secXHour = 3600;
+var minXHour = 60;
+
+var hours = parseInt (time/secXHour);
+var minutes = parseInt ((time % secXHour) / secXMin);
+var seconds = time - ((hours * secXHour) + (minutes *secXMin));
+
+console.log ('Hours ' + hours + ', Minutes ' + minutes + ', Seconds ' + seconds);
