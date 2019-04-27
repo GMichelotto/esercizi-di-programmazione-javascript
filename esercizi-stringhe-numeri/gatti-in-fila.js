@@ -18,3 +18,13 @@
   http://www.imparareaprogrammare.it
 */
 var cats = 44;
+var catsInRow = 6;
+
+var rows = Math.ceil (cats / catsInRow);
+var fullRows = parseInt (cats/ catsInRow);
+var R = cats % catsInRow;
+
+console.log ('Totale Gatti ' + cats + ' Divisi in gruppi di  ' + catsInRow);
+console.log ('Numero di File: ' + rows);
+console.log ('File con 6 Gatti: ' + fullRows);
+console.log ('Ultima file con:' + R + ' Gatti');
