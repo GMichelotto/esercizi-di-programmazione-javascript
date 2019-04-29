@@ -11,3 +11,12 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var year = 2019;
+var yearOfBirth = 1969;
+var years100 = 100;
+
+var oldRU = year - yearOfBirth;
+var upTo100 = years100 - oldRU;
+
+console.log ('età: ' + oldRU + ' anni', '  anni mancanti a 100: ' + upTo100 + ' anni');

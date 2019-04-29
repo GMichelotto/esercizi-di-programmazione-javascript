@@ -8,3 +8,10 @@
   
   http://www.imparareaprogrammare.it
 */
+
+var numbers = [1, 2, 3, 4, 5];
+
+var sum = 0;
+for (var i in numbers) sum += numbers[i];
+var average = sum / numbers.length;
+console.log ('Somma = ' + sum, ' media = ' + average);
