@@ -9,3 +9,6 @@
 
   http://www.imparareaprogrammare.it
 */
+
+var temperature = [10, -2, 31, 22, 15, -6, 7];
+console.log('giornata più calda =  ' + Math.max( ...temperature) + ',' + ' giornata più fredda = ' + Math.min(...temperature));
