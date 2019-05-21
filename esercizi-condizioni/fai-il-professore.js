@@ -18,3 +18,19 @@
 
   http://www.imparareaprogrammare.it
 */
+function voto (x) {
+  if (x < 18 ) {
+    return "insufficiente";
+  } else if (x >= 18 && x < 21) {
+  return "sufficiente";
+} else if (x >= 21 && x < 24) {
+  return "buono";
+} else if (x >= 24 && x < 27) {
+  return "distinto";
+} else if (x >= 27 && x <= 29 ) {
+  return "ottimo";
+} else if ( x = 30) {
+  return "eccellente";
+}
+}
+console.log(voto (29));

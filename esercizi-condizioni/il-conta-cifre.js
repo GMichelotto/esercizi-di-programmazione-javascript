@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var x = 245
+  if (x < 9999) {
+  x = x.toString();
+	console.log(x.length);
+      } else {
+    x = 'non è un numero valido';
+  }
